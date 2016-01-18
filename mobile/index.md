@@ -3,25 +3,25 @@
 
 With {{site.data.keyword.Bluemix_notm}} Mobile Services, you can incorporate pre-built, managed, and scalable cloud services into your mobile applications without relying on IT involvement. You can focus on building your mobile apps instead of the complexities of managing the back-end infrastructure.
 
-<table><caption>Table 1. Bluemix Mobile Services boilerplate</caption>
+<table><caption>Table 1. MobileFirst Services Starter boilerplate</caption>
 <tr>
-	<td>Each of the {{site.data.keyword.Bluemix_notm}} Mobile Services can be used independently. You can also use them together to get the most benefit. To get started, use the {{site.data.keyword.Bluemix_notm}} Mobile Services Boilerplate to create your app. This boilerplate:
+	<td>Each of the {{site.data.keyword.Bluemix_notm}} Mobile Services can be used independently. You can also use them together to get the most benefit. To get started, use the {{site.data.keyword.Bluemix_notm}} MobileFirst Services Starter Boilerplate to create your app. This boilerplate:
 		<ul>
 			<li>Creates a Node.js runtime with a template application. You can use this application to provide server-side functions, such as RESTful APIs and static files. <!-- You can read more about operating this application in the Developing Mobile Backend section.--> </li>
 			<li>
 Provisions an instance of each of the {{site.data.keyword.Bluemix_notm}} Mobile Services and binds the service to the  Node.js application. </li>
 		</ul>
 	</td>
-	<td> <img src="images/mf_boiler_icon.png" alt="Bluemix mobile services" width="500"> Bluemix Mobile Services Boilerplate </td>
+	<td> <img src="images/mf_boiler_icon.png" alt="Bluemix mobile services" width="500"> MobileFirst Services Starter Boilerplate </td>
 </tr>
 </table>
 
-After you use the {{site.data.keyword.Bluemix_notm}} Mobile Services Boilerplate to create your app, you can either get HelloWorld samples for each of the services or start instrumenting your existing app to use {{site.data.keyword.Bluemix_notm}} services.
+After you use the {{site.data.keyword.Bluemix_notm}} MobileFirst Services Starter Boilerplate to create your app, you can either get HelloWorld samples for each of the services or start instrumenting your existing app to use {{site.data.keyword.Bluemix_notm}} services.
 
 
 ## Services overview
 {: #services-overview}
-You can either use all of the {{site.data.keyword.Bluemix_notm}} Mobile Services together by using {{site.data.keyword.Bluemix_notm}} Mobile Services Boilerplate or you can use individual services from the {{site.data.keyword.Bluemix_notm}} catalog. The following diagram outlines all the components of {{site.data.keyword.Bluemix_notm}} Mobile Services.
+You can either use all of the {{site.data.keyword.Bluemix_notm}} Mobile Services together by using {{site.data.keyword.Bluemix_notm}} MobileFirst Services Starter Boilerplate or you can use individual services from the {{site.data.keyword.Bluemix_notm}} catalog. The following diagram outlines all the components of {{site.data.keyword.Bluemix_notm}} Mobile Services.
 
 ![Bluemix mobile services architecture](images/bms_architecture.jpg)
 
@@ -30,7 +30,7 @@ You can either use all of the {{site.data.keyword.Bluemix_notm}} Mobile Services
 <th>{{site.data.keyword.Bluemix_notm}}</th>
 <th>Enterprise systems</th>
 <tr>
-<td> <img src="images/i_js_64.png" alt="Node.js runtime icon"><b>Node.js</b> <br/> A Node.js runtime that hosts a template app is provided as part of the Bluemix Mobile Services boilerplate. You can use the template application to provide server-side functions, such as RESTful APIs and static files. <br/>For example, you might extend the Node.js application for custom logic processing or to connect with REST APIs in your company's existing infrastructure. Each app that you create on {{site.data.keyword.Bluemix_notm}} has a unique app ID. Your mobile app uses this ID with the SDK to access the services that are associated with that application. The app ID is used by the platform as the context for common functions, such as metering and logging.
+<td> <img src="images/i_js_64.png" alt="Node.js runtime icon"><b>Node.js</b> <br/> A Node.js runtime that hosts a template app is provided as part of the MobileFirst Services Starter boilerplate. You can use the template application to provide server-side functions, such as RESTful APIs and static files. <br/>For example, you might extend the Node.js application for custom logic processing or to connect with REST APIs in your company's existing infrastructure. Each app that you create on {{site.data.keyword.Bluemix_notm}} has a unique app ID. Your mobile app uses this ID with the SDK to access the services that are associated with that application. The app ID is used by the platform as the context for common functions, such as metering and logging.
 You can read more about operating this application in the "Developing Mobile Backend" section.</td>
 <td valign="top"><b>Information providers</b> <br/>You can use a Node.js runtime that hosted on {{site.data.keyword.Bluemix_notm}} to connect to any kind of information provider:
 <ul>
